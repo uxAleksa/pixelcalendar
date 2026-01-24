@@ -200,7 +200,7 @@ const ColorPickerModal: React.FC<ColorPickerModalProps> = ({
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            placeholder="Add description"
+            placeholder="Notes"
             maxLength={600}
             style={{
               width: "100%",
